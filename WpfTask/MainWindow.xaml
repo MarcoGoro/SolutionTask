@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfTask.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTask"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnStart" Content="Start" HorizontalAlignment="Left" Height="47" Margin="87,99,0,0" VerticalAlignment="Top" Width="100" Click="btnStart_Click"/>
+        <Label x:Name="lblRisposta" Content="" HorizontalAlignment="Left" Height="47" Margin="87,172,0,0" VerticalAlignment="Top" Width="100" Background="#FFD61E1E" Foreground="#FFF7F7F7"/>
+        <Button x:Name="btnStop" Content="Stop" HorizontalAlignment="Left" Margin="87,272,0,0" VerticalAlignment="Top" Width="100" Height="52" Click="btnStop_Click" RenderTransformOrigin="0.793,0.512"/>
+        <Button x:Name="btnStart1" Content="Start1" HorizontalAlignment="Left" Height="47" Margin="245,99,0,0" VerticalAlignment="Top" Width="100" Click="btnStart1_Click"/>
+        <TextBox x:Name="txtCount" HorizontalAlignment="Left" Height="51" Margin="245,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+        <Label x:Name="lblRisposta2" Content="" HorizontalAlignment="Left" Height="47" Margin="245,172,0,0" VerticalAlignment="Top" Width="100" Background="#FFEE1111" Foreground="#FFFBF7F7"/>
+        <Button x:Name="btnStop1" Content="Stop1" HorizontalAlignment="Left" Height="49" Margin="245,312,0,0" VerticalAlignment="Top" Width="100" Click="btnStop1_Click"/>
+        <Button Content="Start2" HorizontalAlignment="Left" Height="47" Margin="412,99,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click"/>
+        <Label x:Name="lblRisposta3" Content="" HorizontalAlignment="Left" Height="47" Margin="412,172,0,0" VerticalAlignment="Top" Width="112" Background="#FFEA1818" Foreground="#FFF0E5E5"/>
+        <TextBox x:Name="txtDelay" HorizontalAlignment="Left" Height="22" Margin="412,264,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112"/>
+        <Button Content="Stop2" HorizontalAlignment="Left" Height="49" Margin="412,312,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_1"/>
+        <Button x:Name="btnStopTT" Content="Stop Tutto" HorizontalAlignment="Left" Height="114" Margin="621,172,0,0" VerticalAlignment="Top" Width="108" Click="btnStopTT_Click"/>
+        <TextBox x:Name="txtMax" HorizontalAlignment="Left" Height="24" Margin="412,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112"/>
+
+    </Grid>
+</Window>
