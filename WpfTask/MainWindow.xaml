@@ -15,7 +15,7 @@
         <Label x:Name="lblRisposta2" Content="" HorizontalAlignment="Left" Height="47" Margin="245,172,0,0" VerticalAlignment="Top" Width="100" Background="#FFEE1111" Foreground="#FFFBF7F7"/>
         <Button x:Name="btnStop1" Content="Stop1" HorizontalAlignment="Left" Height="49" Margin="245,312,0,0" VerticalAlignment="Top" Width="100" Click="btnStop1_Click"/>
         <Button Content="Start2" HorizontalAlignment="Left" Height="47" Margin="412,99,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click"/>
-        <Label x:Name="lblRisposta3" Content="" HorizontalAlignment="Left" Height="47" Margin="412,172,0,0" VerticalAlignment="Top" Width="112" Background="#FFEA1818" Foreground="#FFF0E5E5"/>
+        <Label x:Name="lblRisposta3" Content="" HorizontalAlignment="Left" Height="47" Margin="412,172,0,0" VerticalAlignment="Top" Width="112" Background="#FF18EAE0" Foreground="#FF131212"/>
         <TextBox x:Name="txtDelay" HorizontalAlignment="Left" Height="22" Margin="412,264,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112"/>
         <Button Content="Stop2" HorizontalAlignment="Left" Height="49" Margin="412,312,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click_1"/>
         <Button x:Name="btnStopTT" Content="Stop Tutto" HorizontalAlignment="Left" Height="114" Margin="621,172,0,0" VerticalAlignment="Top" Width="108" Click="btnStopTT_Click"/>
